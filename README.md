@@ -37,7 +37,7 @@ The script performs the following steps:
 
 ## Data
 
-The script is configured to read data from a `.ndjson` file located at in a personal folder. Each line in this file should be a JSON object containing a text field named `abstract`.
+The script is configured to read data from a `.ndjson` file located in a personal folder. Each line in this file should be a JSON object containing a text field named `abstract`.
 
 Example line in `.ndjson` file:
 ```json
