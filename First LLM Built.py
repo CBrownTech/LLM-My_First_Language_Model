@@ -48,7 +48,7 @@ except LookupError:
 
 # Load raw data from the .ndjson file
 sequences_data = []
-with open('C:\\Users\\doubl\\Downloads\\people_0.ndjson', 'r', encoding='utf-8') as f:
+with open('people_0.ndjson', 'r', encoding='utf-8') as f:
     for line in f:
         sequences_data.append(json.loads(line))
 
@@ -145,5 +145,6 @@ for epoch in range(num_epochs):
     # Print average loss for the epoch
     avg_epoch_loss = epoch_loss / num_batches
     print(f"Epoch {epoch+1}/{num_epochs}, Loss: {avg_epoch_loss:.4f}")
+
 
 print("\nTraining complete.")
