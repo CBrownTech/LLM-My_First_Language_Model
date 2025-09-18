@@ -1,4 +1,4 @@
-# Simple LSTM Language Model
+# My First LSTM Language Model
 
 This project implements a basic language model for next-word prediction using an LSTM (Long Short-Term Memory) network with PyTorch. The model is trained on text data extracted from a `.ndjson` file.
 
